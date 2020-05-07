@@ -1,0 +1,306 @@
+.row {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: var(--grid-column-gap);
+    margin-bottom: var(--grid-row-gap);
+    background-color: transparent;
+}
+
+/* Col Pattern */
+.col-1 {
+    grid-column: span 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-2 {
+    grid-column: span 2;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-3 {
+    grid-column: span 3;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-4 {
+    grid-column: span 4;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-5 {
+    grid-column: span 5;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-6 {
+    grid-column: span 6;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-7 {
+    grid-column: span 7;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-8 {
+    grid-column: span 8;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-9 {
+    grid-column: span 9;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-10 {
+    grid-column: span 10;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-11 {
+    grid-column: span 11;
+    overflow: hidden;
+    position: relative;
+}
+
+.col-12 {
+    grid-column: span 12;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Col Medium */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .col-md-1 {
+        grid-column: span 1;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-2 {
+        grid-column: span 2;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-3 {
+        grid-column: span 3;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-4 {
+        grid-column: span 4;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-5 {
+        grid-column: span 5;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-6 {
+        grid-column: span 6;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-7 {
+        grid-column: span 7;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-8 {
+        grid-column: span 8;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-9 {
+        grid-column: span 9;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-10 {
+        grid-column: span 10;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-11 {
+        grid-column: span 11;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-md-12 {
+        grid-column: span 12;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+/* Col Small  */
+@media only screen and (min-width: 576px)  and (max-width: 768px){
+    .col-sm-1 {
+        grid-column: span 1;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-2 {
+        grid-column: span 2;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-3 {
+        grid-column: span 3;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-4 {
+        grid-column: span 4;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-5 {
+        grid-column: span 5;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-6 {
+        grid-column: span 6;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-7 {
+        grid-column: span 7;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-8 {
+        grid-column: span 8;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-9 {
+        grid-column: span 9;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-10 {
+        grid-column: span 10;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-11 {
+        grid-column: span 11;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-sm-12 {
+        grid-column: span 12;
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+/* Col Extra small */
+@media only screen and (max-width: 576px)  {
+    .col-xs-1 {
+        grid-column: span 1;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-2 {
+        grid-column: span 2;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-3 {
+        grid-column: span 3;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-4 {
+        grid-column: span 4;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-5 {
+        grid-column: span 5;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-6 {
+        grid-column: span 6;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-7 {
+        grid-column: span 7;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-8 {
+        grid-column: span 8;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-9 {
+        grid-column: span 9;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-10 {
+        grid-column: span 10;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-11 {
+        grid-column: span 11;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .col-xs-12 {
+        grid-column: span 12;
+        overflow: hidden;
+        position: relative;
+    }
+}
