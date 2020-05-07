@@ -19,17 +19,39 @@ nav ul li:last-child {
 } */
 
 body {
-  width: 90%;
-  margin: 0 auto
+  margin: 0 auto;
+  background-color: #741AB8;
+  /* background-color: #07B84E; */
+
+
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: #07B84E;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+footer span{
+  display: block;
+}
+
+
 header {
-  background-color: #741AB8;
+  background-color: #07B84E;
+  /* background-color: #B8832C; */
+
   width: 100vw;
   display: flex;
   align-items: center;
   padding: 20px 0;
-  display: none;
 }
 
 header nav ul {
@@ -62,6 +84,10 @@ header img {
   }
 }
 
+.fluid {
+  background-color: #741AB8;
+}
+
 /*card*/
 .card {
   padding: 15px;
@@ -72,6 +98,12 @@ header img {
   align-items: stretch;
   margin: 0 auto;
   justify-content: space-between;
+  /* margin-bottom: 50px; */
+
+}
+
+.fluid:not(:last-child) .card {
+  margin-bottom: 50px;
 }
 
 .esquerda {
@@ -138,6 +170,9 @@ header img {
   color: #64DC40;
   text-transform: uppercase;
 }
+.age {
+  margin-bottom: 15px;
+}
 
 .text {
   color: #fff;
@@ -152,20 +187,77 @@ header img {
   margin: 0 15px;
 }
 
-.simbol-img {
+.simbol {
   margin: auto;
   width: 160px;
   height: 200px;
-  background: url(../img/simbol.png) no-repeat;
-  background-position: center;
+}
+
+._hacker {
+  background: url(../img/simbol.png) no-repeat center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
   background-size: contain;
 }
 
+._hipster {
+  background: url(../img/simbol.png) no-repeat center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+}
 
+._hustler {
+  background: url(../img/simbol.png) no-repeat center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+}
+
+._hyper {
+  background: url(../img/simbol.png) no-repeat center;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: contain;
+}
 
 .block span {
   display: block;
 }
+
+.btn {
+  position: absolute;
+  top: 50vh;
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-right: 50px solid #fff;
+  border-bottom: 25px solid transparent;
+}
+
+.triangle-left:hover {
+  border-right: 50px solid #07B84E;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #fff;
+  border-bottom: 25px solid transparent;
+  right: 0;
+}
+
+.triangle-right:hover {
+  border-left: 50px solid #07B84E;
+}
+
 
 @media (max-width: 800px) {
   .direita {
@@ -179,7 +271,7 @@ header img {
     display: none;
   }
 
-  .simbol-img {
+  ._hacker, ._hipster, ._hustler, .hyper {
     background: url(../img/FabioMuller.jpg) no-repeat;
     background-position: center;
     background-size: cover;
